@@ -1,0 +1,27 @@
+.formatacao{
+    max-width: fit-content;
+    margin: auto;
+}
+
+.cabecalho-roupa {
+    background-color: #bb86fc;
+    color: rgb(243, 240, 240);
+}
+
+.cabecalho-cozinha {
+    background-color: #00c4b4;
+    color: rgb(243, 240, 240);
+}
+
+.itens {
+    background-color: #424250;
+    color: rgb(243, 240, 240);
+}
+
+th,
+td {
+    padding: 5px 10px;
+}
+
+/* Read Me:
+a unica forma que encontrei para mudar o padding das tabelas foi alterando o th, td. A proposta do desafio eh nao estilizar tags mas a alternativa seria uma quantidade excessa de classes que criou uma poluicao visual. */
